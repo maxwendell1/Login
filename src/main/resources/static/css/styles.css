@@ -1,0 +1,58 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+.navbar-custom {
+    background-color: #003d99; /* Azul escuro Accenture */
+    color: #ffffff;
+}
+
+.navbar-custom .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #c5d3f2;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #003d99;
+    color: #ffffff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #003d99;
+    border-color: #003d99;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Cartões */
+.card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulários */
+input[type="text"], input[type="password"] {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
